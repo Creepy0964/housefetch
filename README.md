@@ -1,7 +1,7 @@
-# Kvartfetch
-fetching info about your xata🏠
+# Housefetch
+fetching info about your house🏠
 
-Thank for help [Creepy0964!](https://github.com/Creepy0964)
+kravandir's kvartfetch fork with minor improvements
 
 ![src](https://media.discordapp.net/attachments/958804013430763520/959185296325500989/fetch.png )
 
@@ -11,11 +11,11 @@ Thank for help [Creepy0964!](https://github.com/Creepy0964)
 
 ## Installation
 ```zsh
-git clone https://github.com/kravandir/kvartfetch
-cd kvartfetch
+git clone https://github.com/creepy0964/housefetch
+cd housefetch
 chmod +x install
 sudo ./install
 #if you using termux run ./install -t
 ```
 ## Configuration
-Edit your ``$HOME/.config/kvartfetch/config ``
+Edit your ``$HOME/.config/house/config ``
