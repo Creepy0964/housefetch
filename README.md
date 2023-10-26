@@ -18,4 +18,4 @@ sudo ./install
 #if you using termux run ./install -t
 ```
 ## Configuration
-Edit your ``$HOME/.config/house/config ``
+Edit your ``$HOME/.config/housefetch/config ``
