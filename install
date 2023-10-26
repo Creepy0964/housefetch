@@ -3,19 +3,19 @@ echo "installing..."
 if [[ "$1" == "-t" ]]
         then
         echo "termux installation"
-        cp kvartfetch $HOME/../usr/bin/
-        chmod +x $HOME/../usr/bin/kvartfetch
-        mkdir -p $HOME/../usr/share/doc/kvartfetch
-        cp config $HOME/../usr/share/doc/kvartfetch/
-        chmod +x $HOME/../usr/share/doc/kvartfetch/config
+        cp housefetch $HOME/../usr/bin/
+        chmod +x $HOME/../usr/bin/housefetch
+        mkdir -p $HOME/../usr/share/doc/housefetch
+        cp config $HOME/../usr/share/doc/housefetch/
+        chmod +x $HOME/../usr/share/doc/housefetch/config
 else
-        cp kvartfetch /bin/kvartfetch
-        chmod +x /bin/kvartfetch
-        mkdir -p /usr/share/doc/kvartfetch
-        cp config /usr/share/doc/kvartfetch
-        chmod +x /usr/share/doc/kvartfetch/config
+        cp housefetch /bin/housefetch
+        chmod +x /bin/housefetch
+        mkdir -p /usr/share/doc/housefetch
+        cp config /usr/share/doc/housefetch
+        chmod +x /usr/share/doc/housefetch/config
 fi
-echo "all done! Copy config file to $HOME/.config/kvartfetch/config !"
-echo "you can find default config in /usr/share/doc/kvartfetch"
-echo "($HOME/../usr/share/doc/kvartfetch in termux)"
+echo "all done! Copy config file to $HOME/.config/housefetch/config !"
+echo "you can find default config in /usr/share/doc/housefetch"
+echo "($HOME/../usr/share/doc/housefetch in termux)"
 exit 0
