@@ -48,7 +48,7 @@ ${c0}|o o o|   ${ad}Адрес:     ${ADDRESS}${reset}
 ${c0}|o o o|   ${lc}Цена:      ${PRICE}${reset}
 ${c0}|o o o|   ${ro}Комнат:    ${ROOMS}${reset}
 ${c0}|o o o|   -------------------------
-${c0}|o o o|   ${lc}Тип дома:       ${et}${TYPE}${reset}
-${c0}|o o o|   ${lc}Этажи:      ${et}${FLOOR}${reset}
+${c0}|o o o|   ${lc}Тип дома:  ${et}${TYPE}${reset}
+${c0}|o o o|   ${lc}Этажи:     ${et}${FLOORS}${reset}
 ${c0}|_[]__|   ${lc}Площадь:   ${et}${ALLSPACE}${reset}
 EOF
