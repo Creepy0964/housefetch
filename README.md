@@ -2,8 +2,8 @@
 fetching info about your house🏠
 
 kravandir's kvartfetch fork with minor improvements
+![image](https://github.com/Creepy0964/housefetch/assets/59210160/dd092166-2d02-4b36-823d-80215fd6c697)
 
-![src](https://media.discordapp.net/attachments/958804013430763520/959185296325500989/fetch.png )
 
 ## Dependencies
 - `bash`
