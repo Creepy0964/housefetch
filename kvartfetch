@@ -42,13 +42,13 @@ et="${reset}${green}"
 
 cat <<EOF
 
-${c0} _____    ${na}KVARTIRA FETCH${reset}
+${c0} _____    ${na}HOUSE FETCH${reset}
 ${c0}|o o o|   -------------------------
 ${c0}|o o o|   ${ad}Адрес:     ${ADDRES}${reset}
 ${c0}|o o o|   ${lc}Цена:      ${PRICE}${reset}
 ${c0}|o o o|   ${ro}Комнат:    ${ROOMS}${reset}
 ${c0}|o o o|   -------------------------
 ${c0}|o o o|   ${lc}Этаж:      ${et}${FLOOR}${reset}
-${c0}|o o o|   ${lc}Тип:       ${et}${TYPE}${reset}
+${c0}|o o o|   ${lc}Тип дома:       ${et}${TYPE}${reset}
 ${c0}|_[]__|   ${lc}Площадь:   ${et}${ALLSPACE}${reset}
 EOF
