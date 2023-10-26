@@ -1,14 +1,14 @@
 #!/bin/bash
 set -a
-if [ -e /usr/share/doc/kvartfetch/config ]; then
-        if [ -e $HOME/.config/kvartfetch/config ]; then
-                source $HOME/.config/kvartfetch/config
+if [ -e /usr/share/doc/housefetch/config ]; then
+        if [ -e $HOME/.config/housefetch/config ]; then
+                source $HOME/.config/housefetch/config
         else
-                source /usr/share/doc/kvartfetch/config
+                source /usr/share/doc/housefetch/config
         fi
 else
-        if [ -e $HOME/../usr/share/doc/kvartfetch ]; then
-                source $HOME/../usr/share/doc/kvartfetch
+        if [ -e $HOME/../usr/share/doc/housefetch ]; then
+                source $HOME/../usr/share/doc/housefetch
         else
                 echo "Cannot find config! Exit..."
                 exit 1
@@ -50,5 +50,5 @@ ${c0}|o o o|   ${ro}Комнат:    ${ROOMS}${reset}
 ${c0}|o o o|   -------------------------
 ${c0}|o o o|   ${lc}Тип дома:  ${et}${TYPE}${reset}
 ${c0}|o o o|   ${lc}Этажи:     ${et}${FLOORS}${reset}
-${c0}|_[]__|   ${lc}Площадь:   ${et}${ALLSPACE}${reset}
+${c0}|_[]__|   ${lc}Площадь:   ${et}${SPACE}${reset}
 EOF
